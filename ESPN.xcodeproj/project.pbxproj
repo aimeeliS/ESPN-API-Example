@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		535DA675856E4D5D9B68B7B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE91ABCA26FE4DF7B2BB1F59 /* libPods.a */; };
-		DF0C5D1A16C89F0200391AEF /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1716C89F0200391AEF /* Team.m */; };
-		DF0C5D1B16C89F0200391AEF /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1816C89F0200391AEF /* Story.m */; };
-		DF0C5D2216C8A06300391AEF /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1C16C8A06300391AEF /* NewsTableViewController.m */; };
-		DF0C5D2316C8A06300391AEF /* ViewAllTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1D16C8A06300391AEF /* ViewAllTeamsViewController.m */; };
-		DF0C5D2416C8A06300391AEF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1E16C8A06300391AEF /* WebViewController.m */; };
+		DF0C5D3116C8A26500391AEF /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D2B16C8A26500391AEF /* NewsTableViewController.m */; };
+		DF0C5D3216C8A26500391AEF /* ViewAllTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D2C16C8A26500391AEF /* ViewAllTeamsViewController.m */; };
+		DF0C5D3316C8A26500391AEF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D2D16C8A26500391AEF /* WebViewController.m */; };
+		DF0C5D3816C8A27B00391AEF /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D3516C8A27B00391AEF /* Team.m */; };
+		DF0C5D3916C8A27B00391AEF /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D3616C8A27B00391AEF /* Story.m */; };
 		DF487F1816C736E100A6D2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF487F1716C736E100A6D2C7 /* UIKit.framework */; };
 		DF487F1A16C736E100A6D2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF487F1916C736E100A6D2C7 /* Foundation.framework */; };
 		DF487F1C16C736E100A6D2C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF487F1B16C736E100A6D2C7 /* CoreGraphics.framework */; };
@@ -31,16 +31,16 @@
 		7B194BF11F2F4A71AA04865B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		DE91ABCA26FE4DF7B2BB1F59 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0C5D1416C8981500391AEF /* ESPN-Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESPN-Constants.h"; sourceTree = "<group>"; };
-		DF0C5D1616C89F0200391AEF /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = Models/Team.h; sourceTree = "<group>"; };
-		DF0C5D1716C89F0200391AEF /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Team.m; path = Models/Team.m; sourceTree = "<group>"; };
-		DF0C5D1816C89F0200391AEF /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Story.m; path = Models/Story.m; sourceTree = "<group>"; };
-		DF0C5D1916C89F0200391AEF /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Story.h; path = Models/Story.h; sourceTree = "<group>"; };
-		DF0C5D1C16C8A06300391AEF /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
-		DF0C5D1D16C8A06300391AEF /* ViewAllTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAllTeamsViewController.m; sourceTree = "<group>"; };
-		DF0C5D1E16C8A06300391AEF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		DF0C5D1F16C8A06300391AEF /* ViewAllTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAllTeamsViewController.h; sourceTree = "<group>"; };
-		DF0C5D2016C8A06300391AEF /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
-		DF0C5D2116C8A06300391AEF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DF0C5D2B16C8A26500391AEF /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsTableViewController.m; path = ViewControllers/NewsTableViewController.m; sourceTree = "<group>"; };
+		DF0C5D2C16C8A26500391AEF /* ViewAllTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewAllTeamsViewController.m; path = ViewControllers/ViewAllTeamsViewController.m; sourceTree = "<group>"; };
+		DF0C5D2D16C8A26500391AEF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ViewControllers/WebViewController.m; sourceTree = "<group>"; };
+		DF0C5D2E16C8A26500391AEF /* ViewAllTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewAllTeamsViewController.h; path = ViewControllers/ViewAllTeamsViewController.h; sourceTree = "<group>"; };
+		DF0C5D2F16C8A26500391AEF /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsTableViewController.h; path = ViewControllers/NewsTableViewController.h; sourceTree = "<group>"; };
+		DF0C5D3016C8A26500391AEF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ViewControllers/WebViewController.h; sourceTree = "<group>"; };
+		DF0C5D3416C8A27B00391AEF /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = ESPN/Models/Team.h; sourceTree = "<group>"; };
+		DF0C5D3516C8A27B00391AEF /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Team.m; path = ESPN/Models/Team.m; sourceTree = "<group>"; };
+		DF0C5D3616C8A27B00391AEF /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Story.m; path = ESPN/Models/Story.m; sourceTree = "<group>"; };
+		DF0C5D3716C8A27B00391AEF /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Story.h; path = ESPN/Models/Story.h; sourceTree = "<group>"; };
 		DF487F1416C736E100A6D2C7 /* ESPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF487F1716C736E100A6D2C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF487F1916C736E100A6D2C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,12 +113,12 @@
 		DF487F1D16C736E100A6D2C7 /* ESPN */ = {
 			isa = PBXGroup;
 			children = (
-				DF0C5D1F16C8A06300391AEF /* ViewAllTeamsViewController.h */,
-				DF0C5D1D16C8A06300391AEF /* ViewAllTeamsViewController.m */,
-				DF0C5D2016C8A06300391AEF /* NewsTableViewController.h */,
-				DF0C5D1C16C8A06300391AEF /* NewsTableViewController.m */,
-				DF0C5D2116C8A06300391AEF /* WebViewController.h */,
-				DF0C5D1E16C8A06300391AEF /* WebViewController.m */,
+				DF0C5D2F16C8A26500391AEF /* NewsTableViewController.h */,
+				DF0C5D2B16C8A26500391AEF /* NewsTableViewController.m */,
+				DF0C5D2E16C8A26500391AEF /* ViewAllTeamsViewController.h */,
+				DF0C5D2C16C8A26500391AEF /* ViewAllTeamsViewController.m */,
+				DF0C5D3016C8A26500391AEF /* WebViewController.h */,
+				DF0C5D2D16C8A26500391AEF /* WebViewController.m */,
 				DF487F2616C736E100A6D2C7 /* AppDelegate.h */,
 				DF487F2716C736E100A6D2C7 /* AppDelegate.m */,
 				DF487F1E16C736E100A6D2C7 /* Supporting Files */,
@@ -144,10 +144,10 @@
 		DF5F789116C745110030FF9D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DF0C5D1616C89F0200391AEF /* Team.h */,
-				DF0C5D1716C89F0200391AEF /* Team.m */,
-				DF0C5D1816C89F0200391AEF /* Story.m */,
-				DF0C5D1916C89F0200391AEF /* Story.h */,
+				DF0C5D3416C8A27B00391AEF /* Team.h */,
+				DF0C5D3516C8A27B00391AEF /* Team.m */,
+				DF0C5D3616C8A27B00391AEF /* Story.m */,
+				DF0C5D3716C8A27B00391AEF /* Story.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -237,11 +237,11 @@
 			files = (
 				DF487F2416C736E100A6D2C7 /* main.m in Sources */,
 				DF487F2816C736E100A6D2C7 /* AppDelegate.m in Sources */,
-				DF0C5D1A16C89F0200391AEF /* Team.m in Sources */,
-				DF0C5D1B16C89F0200391AEF /* Story.m in Sources */,
-				DF0C5D2216C8A06300391AEF /* NewsTableViewController.m in Sources */,
-				DF0C5D2316C8A06300391AEF /* ViewAllTeamsViewController.m in Sources */,
-				DF0C5D2416C8A06300391AEF /* WebViewController.m in Sources */,
+				DF0C5D3116C8A26500391AEF /* NewsTableViewController.m in Sources */,
+				DF0C5D3216C8A26500391AEF /* ViewAllTeamsViewController.m in Sources */,
+				DF0C5D3316C8A26500391AEF /* WebViewController.m in Sources */,
+				DF0C5D3816C8A27B00391AEF /* Team.m in Sources */,
+				DF0C5D3916C8A27B00391AEF /* Story.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
