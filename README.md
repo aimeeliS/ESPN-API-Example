@@ -14,4 +14,4 @@ For quick use locate the ESPN-Constants.h file and adjust the constant ESPN API 
 
 
 
-![photo](https://github.com/lukejgeger/ESPN-API-Example/blob/master/Screenshots/photo-1.PNG)
+https://github.com/lukejgeger/ESPN-API-Example/blob/master/Screenshots/photo-1.PNG
