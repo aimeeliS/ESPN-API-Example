@@ -11,3 +11,7 @@ RESTKIT SITE http://restkit.org
 COCOA PODS http://cocoapods.org
 
 For quick use locate the ESPN-Constants.h file and adjust the constant ESPN API Value
+
+
+
+![photo](https://github.com/lukejgeger/ESPN-API-Example/blob/master/Screenshots/photo-1.PNG)
