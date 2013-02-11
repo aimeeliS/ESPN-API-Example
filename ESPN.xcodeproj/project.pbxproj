@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		535DA675856E4D5D9B68B7B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE91ABCA26FE4DF7B2BB1F59 /* libPods.a */; };
+		DF0C5D1A16C89F0200391AEF /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1716C89F0200391AEF /* Team.m */; };
+		DF0C5D1B16C89F0200391AEF /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1816C89F0200391AEF /* Story.m */; };
+		DF0C5D2216C8A06300391AEF /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1C16C8A06300391AEF /* NewsTableViewController.m */; };
+		DF0C5D2316C8A06300391AEF /* ViewAllTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1D16C8A06300391AEF /* ViewAllTeamsViewController.m */; };
+		DF0C5D2416C8A06300391AEF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C5D1E16C8A06300391AEF /* WebViewController.m */; };
+		DF487F1816C736E100A6D2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF487F1716C736E100A6D2C7 /* UIKit.framework */; };
+		DF487F1A16C736E100A6D2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF487F1916C736E100A6D2C7 /* Foundation.framework */; };
+		DF487F1C16C736E100A6D2C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF487F1B16C736E100A6D2C7 /* CoreGraphics.framework */; };
+		DF487F2216C736E100A6D2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF487F2016C736E100A6D2C7 /* InfoPlist.strings */; };
+		DF487F2416C736E100A6D2C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF487F2316C736E100A6D2C7 /* main.m */; };
+		DF487F2816C736E100A6D2C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF487F2716C736E100A6D2C7 /* AppDelegate.m */; };
+		DF487F2A16C736E100A6D2C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF487F2916C736E100A6D2C7 /* Default.png */; };
+		DF487F2C16C736E100A6D2C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF487F2B16C736E100A6D2C7 /* Default@2x.png */; };
+		DF487F2E16C736E100A6D2C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF487F2D16C736E100A6D2C7 /* Default-568h@2x.png */; };
+		DF5F788B16C738A10030FF9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F788A16C738A10030FF9D /* SystemConfiguration.framework */; };
+		DF5F788D16C738A50030FF9D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F788C16C738A50030FF9D /* MobileCoreServices.framework */; };
+		DF5F788F16C738B30030FF9D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F788E16C738B30030FF9D /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B194BF11F2F4A71AA04865B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DE91ABCA26FE4DF7B2BB1F59 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0C5D1416C8981500391AEF /* ESPN-Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESPN-Constants.h"; sourceTree = "<group>"; };
+		DF0C5D1616C89F0200391AEF /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = Models/Team.h; sourceTree = "<group>"; };
+		DF0C5D1716C89F0200391AEF /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Team.m; path = Models/Team.m; sourceTree = "<group>"; };
+		DF0C5D1816C89F0200391AEF /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Story.m; path = Models/Story.m; sourceTree = "<group>"; };
+		DF0C5D1916C89F0200391AEF /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Story.h; path = Models/Story.h; sourceTree = "<group>"; };
+		DF0C5D1C16C8A06300391AEF /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		DF0C5D1D16C8A06300391AEF /* ViewAllTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAllTeamsViewController.m; sourceTree = "<group>"; };
+		DF0C5D1E16C8A06300391AEF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DF0C5D1F16C8A06300391AEF /* ViewAllTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAllTeamsViewController.h; sourceTree = "<group>"; };
+		DF0C5D2016C8A06300391AEF /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		DF0C5D2116C8A06300391AEF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DF487F1416C736E100A6D2C7 /* ESPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF487F1716C736E100A6D2C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF487F1916C736E100A6D2C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF487F1B16C736E100A6D2C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF487F1F16C736E100A6D2C7 /* ESPN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESPN-Info.plist"; sourceTree = "<group>"; };
+		DF487F2116C736E100A6D2C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF487F2316C736E100A6D2C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF487F2516C736E100A6D2C7 /* ESPN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESPN-Prefix.pch"; sourceTree = "<group>"; };
+		DF487F2616C736E100A6D2C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF487F2716C736E100A6D2C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF487F2916C736E100A6D2C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF487F2B16C736E100A6D2C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF487F2D16C736E100A6D2C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF5F788A16C738A10030FF9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF5F788C16C738A50030FF9D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DF5F788E16C738B30030FF9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF487F1116C736E100A6D2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5F788F16C738B30030FF9D /* CoreData.framework in Frameworks */,
+				DF5F788D16C738A50030FF9D /* MobileCoreServices.framework in Frameworks */,
+				DF5F788B16C738A10030FF9D /* SystemConfiguration.framework in Frameworks */,
+				DF487F1816C736E100A6D2C7 /* UIKit.framework in Frameworks */,
+				DF487F1A16C736E100A6D2C7 /* Foundation.framework in Frameworks */,
+				DF487F1C16C736E100A6D2C7 /* CoreGraphics.framework in Frameworks */,
+				535DA675856E4D5D9B68B7B2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF487F0B16C736E100A6D2C7 = {
+			isa = PBXGroup;
+			children = (
+				DF5F789116C745110030FF9D /* Models */,
+				DF487F1D16C736E100A6D2C7 /* ESPN */,
+				DF487F1616C736E100A6D2C7 /* Frameworks */,
+				DF487F1516C736E100A6D2C7 /* Products */,
+				7B194BF11F2F4A71AA04865B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DF487F1516C736E100A6D2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF487F1416C736E100A6D2C7 /* ESPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF487F1616C736E100A6D2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F788E16C738B30030FF9D /* CoreData.framework */,
+				DF5F788C16C738A50030FF9D /* MobileCoreServices.framework */,
+				DF5F788A16C738A10030FF9D /* SystemConfiguration.framework */,
+				DF487F1716C736E100A6D2C7 /* UIKit.framework */,
+				DF487F1916C736E100A6D2C7 /* Foundation.framework */,
+				DF487F1B16C736E100A6D2C7 /* CoreGraphics.framework */,
+				DE91ABCA26FE4DF7B2BB1F59 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF487F1D16C736E100A6D2C7 /* ESPN */ = {
+			isa = PBXGroup;
+			children = (
+				DF0C5D1F16C8A06300391AEF /* ViewAllTeamsViewController.h */,
+				DF0C5D1D16C8A06300391AEF /* ViewAllTeamsViewController.m */,
+				DF0C5D2016C8A06300391AEF /* NewsTableViewController.h */,
+				DF0C5D1C16C8A06300391AEF /* NewsTableViewController.m */,
+				DF0C5D2116C8A06300391AEF /* WebViewController.h */,
+				DF0C5D1E16C8A06300391AEF /* WebViewController.m */,
+				DF487F2616C736E100A6D2C7 /* AppDelegate.h */,
+				DF487F2716C736E100A6D2C7 /* AppDelegate.m */,
+				DF487F1E16C736E100A6D2C7 /* Supporting Files */,
+			);
+			path = ESPN;
+			sourceTree = "<group>";
+		};
+		DF487F1E16C736E100A6D2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF0C5D1416C8981500391AEF /* ESPN-Constants.h */,
+				DF487F1F16C736E100A6D2C7 /* ESPN-Info.plist */,
+				DF487F2016C736E100A6D2C7 /* InfoPlist.strings */,
+				DF487F2316C736E100A6D2C7 /* main.m */,
+				DF487F2516C736E100A6D2C7 /* ESPN-Prefix.pch */,
+				DF487F2916C736E100A6D2C7 /* Default.png */,
+				DF487F2B16C736E100A6D2C7 /* Default@2x.png */,
+				DF487F2D16C736E100A6D2C7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF5F789116C745110030FF9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF0C5D1616C89F0200391AEF /* Team.h */,
+				DF0C5D1716C89F0200391AEF /* Team.m */,
+				DF0C5D1816C89F0200391AEF /* Story.m */,
+				DF0C5D1916C89F0200391AEF /* Story.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF487F1316C736E100A6D2C7 /* ESPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF487F3716C736E100A6D2C7 /* Build configuration list for PBXNativeTarget "ESPN" */;
+			buildPhases = (
+				DF487F1016C736E100A6D2C7 /* Sources */,
+				DF487F1116C736E100A6D2C7 /* Frameworks */,
+				DF487F1216C736E100A6D2C7 /* Resources */,
+				F9B4C9EBC4C7495A9E2943F1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPN;
+			productName = ESPN;
+			productReference = DF487F1416C736E100A6D2C7 /* ESPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF487F0C16C736E100A6D2C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = www.lukejgeiger.com;
+			};
+			buildConfigurationList = DF487F0F16C736E100A6D2C7 /* Build configuration list for PBXProject "ESPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF487F0B16C736E100A6D2C7;
+			productRefGroup = DF487F1516C736E100A6D2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF487F1316C736E100A6D2C7 /* ESPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF487F1216C736E100A6D2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF487F2216C736E100A6D2C7 /* InfoPlist.strings in Resources */,
+				DF487F2A16C736E100A6D2C7 /* Default.png in Resources */,
+				DF487F2C16C736E100A6D2C7 /* Default@2x.png in Resources */,
+				DF487F2E16C736E100A6D2C7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9B4C9EBC4C7495A9E2943F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF487F1016C736E100A6D2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF487F2416C736E100A6D2C7 /* main.m in Sources */,
+				DF487F2816C736E100A6D2C7 /* AppDelegate.m in Sources */,
+				DF0C5D1A16C89F0200391AEF /* Team.m in Sources */,
+				DF0C5D1B16C89F0200391AEF /* Story.m in Sources */,
+				DF0C5D2216C8A06300391AEF /* NewsTableViewController.m in Sources */,
+				DF0C5D2316C8A06300391AEF /* ViewAllTeamsViewController.m in Sources */,
+				DF0C5D2416C8A06300391AEF /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF487F2016C736E100A6D2C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF487F2116C736E100A6D2C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF487F3516C736E100A6D2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF487F3616C736E100A6D2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF487F3816C736E100A6D2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B194BF11F2F4A71AA04865B /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESPN/ESPN-Prefix.pch";
+				INFOPLIST_FILE = "ESPN/ESPN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF487F3916C736E100A6D2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B194BF11F2F4A71AA04865B /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESPN/ESPN-Prefix.pch";
+				INFOPLIST_FILE = "ESPN/ESPN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF487F0F16C736E100A6D2C7 /* Build configuration list for PBXProject "ESPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF487F3516C736E100A6D2C7 /* Debug */,
+				DF487F3616C736E100A6D2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF487F3716C736E100A6D2C7 /* Build configuration list for PBXNativeTarget "ESPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF487F3816C736E100A6D2C7 /* Debug */,
+				DF487F3916C736E100A6D2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF487F0C16C736E100A6D2C7 /* Project object */;
+}
