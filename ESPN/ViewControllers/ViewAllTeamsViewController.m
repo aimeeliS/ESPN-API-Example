@@ -16,7 +16,7 @@
 
 @implementation ViewAllTeamsViewController
 
-#pragma mark Life 
+#pragma mark Life
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -25,14 +25,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-        
+    
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44) style:UITableViewStyleGrouped];
     _tableView.delegate = self;
     _tableView.dataSource = self;
-     self.navigationItem.title = @"NBA";
+    
+    self.navigationItem.title = @"NBA";
     [self.view addSubview:_tableView];
+    
+    
+    UISearchBar*searcher = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, _tableView.frame.size.width, 44)];
+    searcher.placeholder = @"Search for your NBA Team";
+    
+    searchDisplayController = [[UISearchDisplayController alloc]initWithSearchBar:searcher contentsController:self];
+    searchDisplayController.delegate = self;
+    searchDisplayController.searchResultsTableView.delegate = self;
+    searchDisplayController.searchResultsTableView.dataSource = self;
+    
+    _tableView.tableHeaderView = searcher;
+    
     [self loadData];
-
+    
+    searchResults = [[NSArray alloc]init];
+    
+    
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -66,13 +82,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
-    return [teamArray count];
+    if (tableView == searchDisplayController.searchResultsTableView) {
+        return [searchResults count];
+    }
+    else
+        return [teamArray count];
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 -(void)updateTableWithArray:(NSMutableArray*)array{
-
+    
     teamArray = array;
     [_tableView reloadData];
     [self stopAnimating];
@@ -88,9 +107,35 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     // Configure the cell...
-    Team*team = [teamArray objectAtIndex:indexPath.row];
+    
+    Team*team;
+    if (tableView == searchDisplayController.searchResultsTableView) {
+        team = [searchResults objectAtIndex:indexPath.row];
+    }
+    else{
+        team = [teamArray objectAtIndex:indexPath.row];
+    }
     cell.textLabel.text = team.name;
     cell.detailTextLabel.text = team.location;
+    
+    cell.opaque = YES;
+    cell.layer.shouldRasterize = YES;
+    cell.layer.rasterizationScale = [UIScreen mainScreen].scale;
+    
+    
+    UIView*accesView = [[UIView alloc]initWithFrame:CGRectMake(265, 10, 40, 40)];
+    accesView.backgroundColor = [UIColor colorWithHexString:team.hexColor];
+    accesView.layer.cornerRadius = 2.0;
+    accesView.layer.shadowOpacity = 0.6f;
+    accesView.layer.shadowRadius = 0.85;
+    accesView.layer.shadowColor = [[UIColor colorWithRed:125/255. green:125/255. blue:125/255. alpha:1]CGColor];
+    accesView.layer.shadowOffset = CGSizeMake(0, 0);
+    [accesView.layer setShadowPath:[[UIBezierPath bezierPathWithRoundedRect:accesView.bounds cornerRadius:2.0]CGPath]];
+    
+    
+    cell.accessoryView = accesView;
+    
+    
     return cell;
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -180,4 +225,41 @@
         
     }];
 }
+
+#pragma mark Search Display Help
+- (void)filterContentForSearchText:(NSString*)searchText
+                             scope:(NSString*)scope
+{
+    
+    
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"name CONTAINS %@", searchText ];
+    NSArray *filtered  = [teamArray filteredArrayUsingPredicate:predicate];
+    NSLog(@"%@",filtered);
+    searchResults = filtered;
+    [searchDisplayController.searchResultsTableView reloadData];
+    [_tableView reloadData];
+    
+}
+
+
+#pragma mark - UISearchDisplayController delegate methods
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+{
+    [self filterContentForSearchText:searchString scope:
+     [[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:[self.searchDisplayController.searchBar selectedScopeButtonIndex]]];
+    
+    // Return YES to cause the search result table view to be reloaded.
+    return YES;
+}
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption
+{
+    [self filterContentForSearchText:[self.searchDisplayController.searchBar text] scope:
+     [[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:searchOption]];
+    
+    // Return YES to cause the search result table view to be reloaded.
+    return YES;
+}
+
+
+
 @end

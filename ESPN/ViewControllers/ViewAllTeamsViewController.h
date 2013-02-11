@@ -8,13 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewAllTeamsViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
+@interface ViewAllTeamsViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UISearchDisplayDelegate>
 
 {
-
+    
     UITableView*_tableView;;
     NSMutableArray*teamArray;
     UIActivityIndicatorView*activity;
+    UISearchDisplayController*searchDisplayController;
+    NSArray*searchResults;
+    
+    NSArray*eastCoastTeams;
+    NSArray*westCoastTeams;
+    
 }
 
 @end

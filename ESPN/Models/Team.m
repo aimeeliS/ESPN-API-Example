@@ -16,7 +16,7 @@
     team.name = [dict valueForKey:@"name"];
     team.location = [dict valueForKey:@"location"];
     team.abv = [dict valueForKey:@"abbreviation"];
-    
+    team.hexColor = [dict valueForKey:@"color"];
     team.linksArray = [dict valueForKey:@"links"];
     team.webDictionary = [team.linksArray valueForKey:@"mobile"];
     team.teamDictionary = [team.webDictionary valueForKey:@"teams"];
@@ -24,7 +24,7 @@
     team.idCode = [NSNumber numberWithInt:[[dict valueForKey:@"id"]intValue]];
     team.newsURL = [NSString stringWithFormat:@"http://api.espn.com/v1/sports/basketball/nba/teams/%i/news?%@",team.idCode.intValue,kESPNApiKey];
     team.notesURL = [NSString stringWithFormat:@"http://api.espn.com/v1/sports/basketball/nba/teams/%i/notes/?%@",team.idCode.intValue,kESPNApiKey];
-
+    
     return team;
 }
 

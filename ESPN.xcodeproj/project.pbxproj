@@ -25,6 +25,8 @@
 		DF5F788B16C738A10030FF9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F788A16C738A10030FF9D /* SystemConfiguration.framework */; };
 		DF5F788D16C738A50030FF9D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F788C16C738A50030FF9D /* MobileCoreServices.framework */; };
 		DF5F788F16C738B30030FF9D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F788E16C738B30030FF9D /* CoreData.framework */; };
+		DF6F559616C8CBFD00F0F089 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6F559516C8CBFD00F0F089 /* QuartzCore.framework */; };
+		DF6F559916C8CC3000F0F089 /* UIColor+ESPN_Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6F559816C8CC3000F0F089 /* UIColor+ESPN_Colors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,9 @@
 		DF5F788A16C738A10030FF9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DF5F788C16C738A50030FF9D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DF5F788E16C738B30030FF9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF6F559516C8CBFD00F0F089 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF6F559716C8CC3000F0F089 /* UIColor+ESPN_Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ESPN_Colors.h"; path = "Additions/UIColor+ESPN_Colors.h"; sourceTree = "<group>"; };
+		DF6F559816C8CC3000F0F089 /* UIColor+ESPN_Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ESPN_Colors.m"; path = "Additions/UIColor+ESPN_Colors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6F559616C8CBFD00F0F089 /* QuartzCore.framework in Frameworks */,
 				DF5F788F16C738B30030FF9D /* CoreData.framework in Frameworks */,
 				DF5F788D16C738A50030FF9D /* MobileCoreServices.framework in Frameworks */,
 				DF5F788B16C738A10030FF9D /* SystemConfiguration.framework in Frameworks */,
@@ -99,6 +105,7 @@
 		DF487F1616C736E100A6D2C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF6F559516C8CBFD00F0F089 /* QuartzCore.framework */,
 				DF5F788E16C738B30030FF9D /* CoreData.framework */,
 				DF5F788C16C738A50030FF9D /* MobileCoreServices.framework */,
 				DF5F788A16C738A10030FF9D /* SystemConfiguration.framework */,
@@ -121,6 +128,7 @@
 				DF0C5D2D16C8A26500391AEF /* WebViewController.m */,
 				DF487F2616C736E100A6D2C7 /* AppDelegate.h */,
 				DF487F2716C736E100A6D2C7 /* AppDelegate.m */,
+				DF6F559416C8CBCC00F0F089 /* Additions */,
 				DF487F1E16C736E100A6D2C7 /* Supporting Files */,
 			);
 			path = ESPN;
@@ -150,6 +158,15 @@
 				DF0C5D3716C8A27B00391AEF /* Story.h */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		DF6F559416C8CBCC00F0F089 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F559716C8CC3000F0F089 /* UIColor+ESPN_Colors.h */,
+				DF6F559816C8CC3000F0F089 /* UIColor+ESPN_Colors.m */,
+			);
+			name = Additions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +259,7 @@
 				DF0C5D3316C8A26500391AEF /* WebViewController.m in Sources */,
 				DF0C5D3816C8A27B00391AEF /* Team.m in Sources */,
 				DF0C5D3916C8A27B00391AEF /* Story.m in Sources */,
+				DF6F559916C8CC3000F0F089 /* UIColor+ESPN_Colors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

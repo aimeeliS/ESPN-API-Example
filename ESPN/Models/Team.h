@@ -16,6 +16,8 @@
 @property (nonatomic, strong)NSNumber*idCode;
 @property (nonatomic, strong)NSString*newsURL;
 @property (nonatomic, strong)NSString*notesURL;
+@property (nonatomic, strong)NSString*hexColor;
+
 @property (nonatomic, strong)NSString*webURL;
 @property (nonatomic, strong)NSDictionary*linksArray;
 @property (nonatomic, strong)NSDictionary*webDictionary;
